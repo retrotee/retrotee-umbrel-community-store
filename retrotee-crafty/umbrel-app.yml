@@ -41,6 +41,6 @@ gallery:
 releaseNotes: >-
   Version 4.5.4 fixes bugs by refactoring the upload process to ensure asynchronous file operations. It also removes all third-party font requests.
 dependencies:
-path: "https://umbrel.local:18443"
+path: "https://umbrel.local:8443"
 defaultUsername: "admin"
 defaultPassword: ""

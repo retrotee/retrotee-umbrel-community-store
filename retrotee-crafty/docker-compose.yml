@@ -5,8 +5,8 @@ services:
     container_name: crafty_container
     image: registry.gitlab.com/crafty-controller/crafty-4:latest
     ports:
-      - "18443:8443" 
-      - "18123:8123" 
+      - "8443:8443" 
+      - "8123:8123" 
       - "19132:19132/udp" 
       - "25500-25600:25500-25600" 
     volumes:
